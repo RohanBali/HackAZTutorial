@@ -93,12 +93,23 @@ https://pip.pypa.io/en/stable/installation/
 
 Once Python and pip are ready, follow these steps:
 
-### 1. Clone the Repository
+### 1. Get the Code
+
+You can either:
+
+**Option A – Clone the repository using Git:**
 
 ```bash
 git clone https://github.com/RohanBali/HackAZTutorial.git
 cd HackAZTutorial
 ```
+
+**Option B – Download the ZIP file from GitHub:**
+
+1. Go to [https://github.com/RohanBali/HackAZTutorial](https://github.com/RohanBali/HackAZTutorial)
+2. Click the green **"Code"** button
+3. Select **"Download ZIP"**
+4. Extract the contents and open the folder in your terminal
 
 ### 2. Create a Virtual Environment
 
@@ -127,7 +138,7 @@ pip install -r requirements.txt
 ### 4. Verify Qiskit Installation
 
 ```bash
-python -c "import qiskit; print(qiskit.__qiskit_version__)"
+python -c "import qiskit; print(qiskit.__version__)"
 ```
 
 ---
@@ -163,6 +174,7 @@ In the notebook interface:
 
 - Built using [Qiskit](https://qiskit.org/)
 - Part of the workshop at [HackAZ](https://hack.arizona.edu/)
+- Inspired by IBM Quantum's educational resources
 
 ---
 
