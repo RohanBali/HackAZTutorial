@@ -1,0 +1,12 @@
+# Jupyter for running notebooks
+jupyter
+
+# Core Qiskit with visualization tools
+qiskit[visualization]
+
+# Qiskit extensions
+qiskit-aer
+qiskit-ibm-runtime
+
+# For kernel management in Jupyter
+ipykernel
