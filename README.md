@@ -12,12 +12,12 @@ flowchart TD
     C --> E[Contributing]
     E --> F[License]
 
-    click A "#introduction"
-    click B "#installation"
-    click C "#usage"
-    click D "#troubleshooting"
-    click E "#contributing"
-    click F "#license"
+    click A "./#introduction" "_self"
+    click B "./#installation" "_self"
+    click C "./#usage" "_self"
+    click D "./#troubleshooting" "_self"
+    click E "./#contributing" "_self"
+    click F "./#license" "_self"
 ```
 
 ## Introduction
